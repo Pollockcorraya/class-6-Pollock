@@ -108,3 +108,125 @@ button {
 .service-card a {
     text-decoration: none;
 }
+
+/* portfolio  CSS */
+#portfolio {
+    width: 85%;
+    margin: auto; 
+    overflow: hidden;  
+    padding-bottom: 5%;
+}
+.portfolio-text {
+    width: 50%;
+    margin:5% auto;
+    text-align: center;
+    font-size: 35px;
+}
+.portfolio-text span {
+    font-style: italic;
+    color: #A30000;
+}
+.card-1 {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+}
+.card-2 {
+    width: 32%;
+    float: left;
+}
+.card-3 {
+    width: 32%;
+    float: right;
+}
+.pic-1 {
+    width: 100%;
+    margin-bottom: 4%;
+}
+.pic-1 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pic-2 {
+    width: 100%;
+}
+.pic-2 img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 4%;
+}    
+.pic-3 {
+    width: 100%;
+}
+.pic-3 img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 4%;
+}  
+
+/* About CSS */
+#about {
+    background-color: #F2FAFA;
+    min-height: 400px;
+    overflow: hidden;
+    padding-bottom: 5%;
+}
+.about {
+    width: 85%;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+.about-img {
+    display: inline-block;
+    width: 50%;
+}
+.about-text {
+    width: 50%;
+    float: right;
+}
+.about-text h2 {
+    font-size: 46px;
+}
+.about-text p {
+    font-size: 25px;
+}
+.highlight p {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DEE2E6;
+    margin: 0;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.satisfaction {
+    margin-top: 5%;
+}
+.satisfaction h1 {
+    font-size: 45px;
+}
+.satisfaction p {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #6C757D;
+ 
+}
+.happy-customer {
+    width:23% ;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 2% 0;
+    float: left;
+    margin-right: 2.5%;
+    border-radius: 10px;
+    border-bottom: 1px solid #3343A1;
+}
+.award {
+    width:23% ;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 2% 0;
+    float: right;
+    border-radius: 10px;
+    border-bottom: 1px solid #3343A1;
+}
