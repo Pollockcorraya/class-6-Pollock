@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    max-width: 1400px;
+    background-color: #DDF4FF;
+}
+
+button {
+    background-color: #2F3F9F;
+    color: #ffff;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 2px solid #ff0000;
+    margin-right: 25px;
+}
+/* Header CSS */
+#header {
+    padding-top: 2%;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+.logo {
+    display: inline-block;
+}
+.menu {
+    float: right;
+}
+.menu li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+.menu li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 900;
+    color: black;
+}
+.hero-text {
+    width: 50%;
+    display: inline-block;
+}
+.hero-text h1 {
+    font-size: 80px;
+}
+.hero-text span {
+    font-style: italic;
+    color: #A30000;
+}
+
+.hero-text p {
+    font-size: 30px;
+}
+
+.credit {
+    background-color: transparent;
+    color: #A30000;
+}
+
+.hero-img {
+    width: 50%;
+    float: right;
+}
+.hero-img img {
+    width: 80%;
+    border-radius: 50%;
+    margin-top: 20%;
+    margin-left: 20%;
+}
