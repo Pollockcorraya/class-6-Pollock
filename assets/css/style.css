@@ -1,7 +1,8 @@
 body {
     margin: 0;
     max-width: 1400px;
-    background-color: #DDF4FF;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
 }
 
 button {
@@ -16,7 +17,10 @@ button {
 /* Header CSS */
 #header {
     padding-top: 2%;
+    padding-bottom: 5%;
+    background-color: #DDF4FF;
 }
+
 .container {
     width: 85%;
     margin: 0 auto;
@@ -69,4 +73,38 @@ button {
     border-radius: 50%;
     margin-top: 20%;
     margin-left: 20%;
+}
+
+
+/* Services CSS */
+#services {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    padding-top:5%;
+    padding-bottom: 3%;
+}
+.service-text {
+    width: 70%;
+    margin:  auto;
+}
+.service-text h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 70px;
+}
+.service-text span {
+    color: #A30000;
+    font-style: italic;
+}
+.service-item {
+    margin-top: 10%;
+}
+.service-card {
+    width: 23%;
+    float: left;
+    margin-right: 2%;
+}
+.service-card a {
+    text-decoration: none;
 }
