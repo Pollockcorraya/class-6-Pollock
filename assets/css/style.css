@@ -364,7 +364,52 @@ button {
     background-color: #A30000;
     margin:25px 0 ;
 }
-
+/* Client-Satisfaction CSS */
+#client {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    min-height: 400px;
+    padding: 5% 0;
+}
+.client {
+    width: 85%;
+    margin: 0 auto;
+}
+.client-text {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+.client-text h1 {
+    font-size: 40px;
+  }
+.client-text span {
+    color: #A30000;
+    font-style: italic;
+}
+.client-card, .client-card-1 {
+    width: 28%;
+    background-color: #FAFAFA;
+    padding: 23px;
+    border-radius: 5px;
+    border-bottom: 1px solid #0000ff;
+    float: left;
+    margin-right: 1.8%;
+}
+.client-card-1 {
+    float: right;
+    margin-right: 0;
+}
+.client-card img {
+    width: 30%;
+    border-radius: 50%;
+    border: 3px solid #DEE2E6;
+}
+.client-card-1 img {
+    width: 30%;
+    border-radius: 50%;
+    border: 3px solid #DEE2E6;
+}
 #blog {
     background-color: #F7F4E9;
     min-height: 400px;
