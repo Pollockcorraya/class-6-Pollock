@@ -364,3 +364,60 @@ button {
     background-color: #A30000;
     margin:25px 0 ;
 }
+
+#blog {
+    background-color: #F7F4E9;
+    min-height: 400px;
+    overflow: hidden;
+    padding: 3% 0;
+}
+.blog {
+    width: 85%;
+    margin: 0 auto;
+}
+.blog-text {
+    width: 50%;
+    display: inline-block;
+}
+.blog-text h1 {
+    margin-top: 0;
+    font-size: 60px;
+    margin-top: 15%;
+}
+.blog-text p {
+    font-size: 30px;
+  }
+.blog span {
+    font-style: italic;
+    color: #A30000;
+}
+.blog-item {
+    width: 50%;
+    float: right;
+}
+.blog-card  {
+    width: 100%;
+    display: inline-block;
+}
+.blog-card h4 {
+    text-transform: capitalize;
+    color: #2F3F9F;
+    font-weight: 900;
+}
+.blog-card p{
+    color: #212529;
+    font-size: 20px;
+}
+.blog-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.blog-card-1 {
+    width: 48%;
+    display: inline-block;
+}
+.blog-card-2 {
+    width: 48%;
+    float: right;
+}
+
