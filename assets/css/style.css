@@ -421,3 +421,36 @@ button {
     float: right;
 }
 
+#contact {
+    background-color: #FFFFFF;
+    min-height: 400px;
+    overflow: hidden;
+    padding: 3% 0;
+}
+
+.contact {
+    width: 85%;
+    margin: 0 auto;
+}
+.contact-img {
+    width: 48%;
+    display: inline-block;
+}
+.contact-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+.contact-info {
+    width: 48%;
+    float: right;
+}
+.contact-info h3 {
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.contact-info h4 {
+    font-size: 25px;
+}
+.contact-info p {
+    color: #6C757D;
+}
